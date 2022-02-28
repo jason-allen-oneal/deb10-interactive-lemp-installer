@@ -4,8 +4,8 @@ This bash script is intended to be an all-in-one, basic LEMP stack installatiin 
 
 ```
 Put it on the local machine
-chmod 755 debian-10-automated-lemp.sh
-./debian-10-automated-lemp.sh
+chmod 755 interactive-lemp.sh
+./interactive-lemp.sh
 ```
 
 **_WARNING_** - By default, this script configures vsftpd to allow for root login for ease and quickness of further setup and configuration. This is very unwise to use in production for security reasons. It is therefore recommended to remove root from the allowed ftpusers list. One may do this by either editing the script on line 16 and removing
